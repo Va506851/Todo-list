@@ -13,6 +13,7 @@ function addtask(){
     // console.log(inputtext)
    if(inputtext === ""){
       alert( 'Please Enter Your Task')
+       return
    }
     // let we created  list in inside unorder;
     let task = document.createElement('li');
